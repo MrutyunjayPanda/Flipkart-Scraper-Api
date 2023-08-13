@@ -1,5 +1,5 @@
 const express = require("express");
-const jwt = require("jsonwebtoken"); // Import jwt module
+const jwt = require("jsonwebtoken");
 const { SECRET } = require("../middleware/auth");
 const { User } = require("../db/mongo");
 const router = express.Router();
